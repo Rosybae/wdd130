@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with us! Visit our Contact page for inquiries, support, and more information about our services. We're here to assist you.">
+    <meta name="Chioma Obidike" content="Whitewater rafting">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    
+</head>
+<body>
+
+        <header>
+            <a id = "logo_link" href="index.html">
+                <img class = "logo" src="images/wwr-logo.png" alt="Dry Oar Logo">
+            </a>
+            <nav>
+                <ul>             
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="home-grid">
+            <section class="hero-card">
+                <h2>White Water Rafting</h2>
+                <div class="hero-card-detail">
+                    <p>
+                        Embark on an exhilarating journey that takes you deep into nature's raw beauty, where roaring rapids and majestic landscapes await! Our white water rafting adventures are more than just a thrilling ride—they're a chance to reconnect with the wild, challenge yourself, and discover the true meaning of adventure.
+
+Whether you’re navigating turbulent Class IV rapids or floating through serene stretches of crystal-clear water, each moment brings a new sense of excitement and wonder. As you paddle through the twists and turns of the river, you’ll feel the pulse of nature’s power beneath you and the thrill of conquering its challenges.
+
+Our expert guides ensure your safety while sharing their knowledge of the river's secrets, from hidden wildlife to the rich history of these legendary waterways. It's more than just a ride—it's an immersive experience that awakens your senses and leaves you craving more.
+                  
+            </section>
+            <section class="company-info">
+                <h2>Our Company Information</h2>
+                <address>
+                    <p><strong>Address:</strong> 123 Blue bell Ave, Umuahia, Abia State, Nigeria</p>
+                    <p><strong>Phone:</strong> (234) 456-7890-034</p>
+                    <p><strong>Email:</strong> <a href="mailto:info@yahoo.com">info@whitewater.com</a></p>
+                </address>
+
+                <div>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAP_EMBED_URL" 
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              
+            </section>
+            <section class="our-team">
+                <h2>Meet Our Team</h2>
+            <div class="employee-profiles">
+                <figure>
+                    <img src="images/profile.jpg" alt="Chioma Obidike" width="150">
+                    <figcaption>Chioma Obi</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/felix-chiozo.jpg" alt="felix chiozo" width="150">
+                    <figcaption>Felix Chiozo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/grace-eze.jpg" alt="Grace eze" width="150">
+                    <figcaption>Grace Eze</figcaption>
+                </figure>
+            </div>
+            </section>
+
+            <section>
+                <h2>Contact Us</h2>
+                <form action="/submit-form" method="POST">
+                    <!-- Name -->
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <!-- Email -->
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <!-- Purpose of Message -->
+                    <label for="purpose">Purpose of Message:</label>
+                    <div>
+                        <label>
+                            <input type="radio" name="purpose" value="General inquiry"> General Inquiry
+                        </label>
+                        <label>
+                            <input type="radio" name="purpose" value="Reservation question"> Reservation Question
+                        </label>
+                        <label>
+                            <input type="radio" name="purpose" value="Website suggestion"> Website Suggestion
+                        </label>
+                    </div>
+    
+                    <!-- Message -->
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <!-- Newsletter Checkbox -->
+                    <label>
+                        <input type="checkbox" name="newsletter" value="subscribe"> Please subscribe me to the monthly newsletter
+                    </label>
+    
+                    <!-- Submit Button -->
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+            
+        </main>
+        <footer>
+            <p>Dry Oar &copy; 2024 - Chioma Rosemary Obidike</p>
+            <div class="footer-nav">
+                <p><a href="trips.html">Trips</a></p>
+                <p><a href="contact.html">Contact Us</a></p>
+                <p><a href="images/wireframe.png">Wireframe</a></p>
+            </div>
+            <div class="social">
+                <a href="https://facebook.combine"  target="_blank">
+                    <img src="images/facebook.png" alt="facebook fire_icon">
+                </a>
+                <a href="https://twitter.com"  target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com"  target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+   
+</body>
+</html>
