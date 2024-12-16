@@ -12,7 +12,7 @@ Fonts are separated by a & */
   --accent2-color: #ffffff;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: Poppins;
+  --heading-font: "Open Sans";
   --paragraph-font: Poppins, Roboto, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
